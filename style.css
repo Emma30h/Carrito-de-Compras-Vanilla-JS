@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.container-card{
+    height: 250px;
+    width: 150px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container-card h2{
+    font-size: 15px;
+}
+
+.container-imagen{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.container-imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container-descipcion{
+    height: 50%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-comprar{
+    width: 70%;
+    padding: 5px 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(142, 234, 99);
+}
+
+.btn-comprar:hover{
+    background-color: rgb(104, 202, 59);
+    cursor: pointer;
+}
+
+.table{
+    margin-top: 50px;
+}
